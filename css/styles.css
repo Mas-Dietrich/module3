@@ -334,7 +334,6 @@ body {
 
 #headerWrapper {
   background-color: #8cc1b5;
-  color: #8a4550;
 }
 
 header {
@@ -436,9 +435,6 @@ footer p {
   }
   nav ul li a {
     padding: 0.5rem;
-  }
-  nav li.active {
-    background-color: none;
   }
   nav li.active a {
     color: #8cc1b5;
