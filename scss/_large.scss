@@ -1,0 +1,12 @@
+header, nav, main, footer {
+    max-width: 1140px;
+    margin: auto;
+}
+
+div.produceGallery figure {
+    flex-basis: 21%;
+}
+
+nav ul{
+        justify-content: left;
+    }

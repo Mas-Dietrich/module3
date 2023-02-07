@@ -1,0 +1,32 @@
+header {
+    padding: 2rem $gutter;
+    
+    h1{
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+
+}
+
+div.produceGallery figure {
+    flex-basis: 28%;
+
+}
+
+nav{
+    ul {
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    li.active {
+        background-color: none;
+    }
+
+    li.active a{
+        color: $primaryColor;
+    }
+}
