@@ -18,8 +18,13 @@ div.produceGallery figure {
 
 nav{
     ul {
-    flex-direction: row;
-    justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        li a {
+            padding: 0.5rem;
+        }
     }
 
     li.active {

@@ -433,8 +433,12 @@ footer p {
     flex-basis: 28%;
   }
   nav ul {
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+  }
+  nav ul li a {
+    padding: 0.5rem;
   }
   nav li.active {
     background-color: none;
@@ -451,7 +455,7 @@ footer p {
   div.produceGallery figure {
     flex-basis: 21%;
   }
-  nav ul {
+  nav ul li a {
     justify-content: left;
   }
 }
