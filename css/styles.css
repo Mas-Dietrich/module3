@@ -368,9 +368,6 @@ nav ul {
   display: flex;
   flex-direction: column;
 }
-nav ul li {
-  flex: 1;
-}
 nav ul a {
   display: block;
   padding: 1em;
@@ -455,7 +452,10 @@ footer p {
   div.produceGallery figure {
     flex-basis: 21%;
   }
-  nav ul li a {
-    justify-content: left;
+  nav ul {
+    justify-content: flex-start;
+  }
+  nav ul li {
+    flex-basis: auto;
   }
 }

@@ -55,9 +55,6 @@ nav {
     display: flex;
     flex-direction: column;
 
-    li {
-      flex: 1;
-    }
       a {
         display: block;
         padding: 1em;
@@ -65,7 +62,6 @@ nav {
         color: white;
         text-align: center;
         text-decoration: none;
-    
         &:hover {
           text-decoration: underline 2px $primaryColor;
         }
